@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Drilling M2</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Archivos CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">Portafolio</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Inicio</a></li>
+          <li><a href="#about">Acerca</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#portfolio">Portafolio</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Sección Inicio -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2>Hola, Mi nombre es Francisco Ocharan</h2>
+        <p>Estoy cursando Bootcam FullStack Python<br></p>
+        <a href="#about" class="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
+      </div><!-- Fín Sección Inicio -->
+
+    </section>
+
+    <!-- Sección Acerca -->
+    <section id="about" class="about section">
+
+      <!-- Título Sección -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Acerca de mí</h2>
+        <p>Principalmente me he desarrollado como trabajador dependiente en area administrativa contable</p>
+      </div><!-- Fín Título Sección -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Administrativo contable en empresa de Transportes</h2>
+            <p class="fst-italic py-3">
+              Me he desempeñado como soporte informático tanto como empleado dependiente como independiente, en la
+              actiualidad llevo 12 años desempeñandome como administrativo contable .
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Fecha de Nacimiento:</strong> <span>27 Octubre 1983</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Sitio Web:</strong> <span>www.example.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Teléfono:</strong> <span>+56 9 54124372</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Ciudad:</strong> <span>Temuco, Chile</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Edad:</strong> <span>40</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Nivel Estudios:</strong> <span>Media Completa</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>fot1983@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Estado Laboral:</strong> <span>Empleado</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              Me caracterizo por ser responsable, meticuloso, proactivo, con atención al detalle, y buena resolucion de
+              problemas.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- Fín Sección Acerca -->
+
+    <!-- Sección Habilidades -->
+    <section id="skills" class="skills section">
+
+      <!-- Título Sección -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Habilidades</h2>
+        <p>Detalle de mis habilidades aprendidas y por aprender</p>
+      </div><!-- Fín Título Sección -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-12">
+
+              <div class="progress">
+                <p>HTML5</p>
+                <progress id="HTML" max="100" value="40"></progress>
+                <span></span>
+
+              </div>
+
+              <div class="progress">
+                <p>CSS</p>
+                <progress id="css" max="100" value="35"></progress>
+                <span></span>
+
+              </div>
+
+              <div class="progress">
+                <p>Bootstrap</p>
+                <progress id="bootstrap" max="100" value="35"></progress>
+                <span></span>
+
+              </div>
+
+              <div class="progress">
+                <p>Javascript</p>
+                <progress id="javascript" max="100" value="35"></progress>
+                <span></span>
+
+              </div>
+
+              <div class="progress">
+                <p>Github</p>
+                <progress id="github" max="100" value="35"></progress>
+                <span></span>
+
+              </div>
+              <div class="progress">
+                <p>Python</p>
+                <progress id="python" max="100" value="15"></progress>
+                <span></span>
+
+              </div>
+          </div>
+        </div>
+
+    </section><!-- Fín Sección Habilidades -->
+
+    <!-- Sección Resumen -->
+    <section id="resume" class="resume section light-background">
+
+      <!-- Título Sección -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resumen</h2>
+        <p>Detalle de estudios previos y experiencia laboral</p>
+      </div><!-- Fín Título Sección -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Resumen</h3>
+
+            <!-- Item Resumen -->
+            <div class="resume-item pb-0">
+              <h4>Francisco Ocharan</h4>
+              <p><em>Empleado en empresa de transporte donde realiza funciones de ancargado de pagos de remuneraciones y
+                  pagos a proveedores .</em></p>
+              <ul>
+                <li>Temuco, Chile</li>
+                <li>+56 9 54124372</li>
+                <li>fot1983@gmail.com</li>
+              </ul>
+            </div><!-- Fín Item Resumen -->
+
+            <!-- Item Resumen -->
+            <h3 class="resume-title">Educación</h3>
+            <div class="resume-item">
+              <h4>Ciberseguridad de Google</h4>
+              <h5>2024 a la fecha</h5>
+              <p><em>Coursera</em></p>
+              <p>Se encuentra cursando Ciberseguridad de Google en plataforma Coursera</p>
+            </div><!-- Fín Item Resumen -->
+
+            <!-- Item Resumen -->
+            <div class="resume-item">
+              <h4>Full Stack Python</h4>
+              <h5>2024 a la fecha</h5>
+              <p><em>Edutecno, Chile</em></p>
+              <p>Se encuentra cursando full stack python e OTEC Edutecno en clases vespertinas</p>
+            </div><!-- Fín Item Resumen -->
+
+          </div>
+
+          <!-- Item Resumen -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Experiencia Profesional</h3>
+            <div class="resume-item">
+              <h4>Administrativo Contable</h4>
+              <h5>2011 a la fecha</h5>
+              <p><em>Surtrans, Temuco</em></p>
+              <ul>
+                <li>Pago de proveedores y remuneraciones.</li>
+                <li>Ingreso en sistema propio de todos los ingresos y egresos de dineros de la empresa.</li>
+                <li>Facturación.</li>
+                <li>Manejo en plataforma Mercadopúblico</li>
+              </ul>
+            </div><!-- Fín Item Resumen -->
+
+            <!-- Item Resumen -->
+            <div class="resume-item">
+              <h4>Soporte Informático</h4>
+              <h5>2004 - 2011</h5>
+              <p><em>Varias empresas del rubro</em></p>
+              <ul>
+                <li>Sercoin</li>
+                <li>Tecno Temuco</li>
+                <li>PC Factory</li>
+                <li>Independiente</li>
+              </ul>
+            </div><!-- Fín Item Resumen -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- Fín Sección Resumen -->
+
+    <!-- Sección Servicios -->
+    <section id="services" class="services section">
+
+      <!-- Título Sección -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Servicios</h2>
+        <p>Se detallan algunos servicios a continuación:</p>
+      </div><!-- Fín Título Sección -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <!-- Item Servicios -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="" class="stretched-link">Diagnostico</a></h4>
+              <p>Diagnostico y revisión de equipos informáticos</p>
+            </div>
+          </div><!-- Fín Item Servicios -->
+
+          <!-- Item Servicios -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-motherboard icon"></i></div>
+              <h4><a href="" class="stretched-link">Armado</a></h4>
+              <p>Armado y configuració de equipos informático</p>
+            </div>
+          </div><!-- Fín Item Servicios -->
+
+          <!-- Item Servicios -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-shield-check icon"></i></div>
+              <h4><a href="" class="stretched-link">Seguridad</a></h4>
+              <p>Instalacion de equipos de seguridad (camaras, equipos biometricos, acceso)</p>
+            </div>
+          </div><!-- Fín Item Servicios -->
+
+          <!-- Item Servicios -->
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-wifi icon"></i></div>
+              <h4><a href="" class="stretched-link">Redes</a></h4>
+              <p>Cableado y configuración de redes informáticas</p>
+            </div>
+          </div><!-- Fín Item Servicios -->
+
+        </div>
+
+      </div>
+
+    </section><!-- Fín Sección Servicios -->
+
+    <!-- Sección Portafolios -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Título Sección -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portafolio</h2>
+        <p>Detalle de algunos desarrollos realizados en Bootcam</p>
+      </div><!-- Fín Título Sección -->
+
+      <!-- Contenedor Portafolios-->
+      <div class="container">
+
+        <div class="row gy-4">
+
+        <!-- Item Portafolios-->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <img src="./assets/img/AsistenteVirtualMin.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Asistente Virtial</h4>
+            <a href="./assets/img/AsistenteVirtual.jpg" title="Asistente"
+              data-gallery="portfolio-gallery-app" class=""><i class="bi bi-zoom-in"></i></a>
+            <a href="portfolio-details.html" title="Mas Detalles" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
+          </div>
+        </div><!-- Fín Item Portafolios -->
+
+                <!-- Item Portafolios-->
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <img src="./assets/img/BancaVirtualMin.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Banca Virtial</h4>
+                    <a href="./assets/img/BancaVirtual.jpg" title="Banca"
+                      data-gallery="portfolio-gallery-app" class=""><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.html" title="Mas Detalles" class="details-link"><i
+                        class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div><!-- Fín Item Portafolios -->
+
+        <!-- Item Portafolios-->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-product">
+          <img src="./assets/img/FormularioPendientesMin.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Formulario Pendientes</h4>
+            <a href="./assets/img/FormularioPendientes.jpg" title="Formulario"
+              data-gallery="portfolio-gallery-product" class=""><i class="bi bi-zoom-in"></i></a>
+            <a href="portfolio-details.html" title="Mas Detalles" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
+          </div>
+        </div><!-- Fín Item Portafolios -->
+
+        <!-- Item Portafolios-->
+        <div class="col-lg-4 col-md-6 portfolio-item filter-branding">
+          <img src="./assets/img/PaginaVuelosMin.jpg" class="img-fluid" alt="">
+          <div class="portfolio-info">
+            <h4>Pagina Vuelos</h4>
+            <a href="./assets/img/PaginaVuelos.jpg" title="Pagina"
+              data-gallery="portfolio-gallery-branding" class=""><i class="bi bi-zoom-in"></i></a>
+            <a href="portfolio-details.html" title="Mas Detalles" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
+          </div>
+        </div><!-- Fín Item Portafolios -->
+
+
+      </div>
+
+      </div><!-- Fín Contenedor Portafolios -->
+
+    </section><!-- Fín Sección Portafolios -->
+
+    <!-- Sección Contacto -->
+    <section id="contact" class="contact section">
+
+      <!-- Título Sección -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contacto</h2>
+        <p>Escribenos por cualquier solicitud o duda</p>
+      </div><!-- Fín Título Sección -->
+
+      <!-- Contenedor Contacto -->
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <!-- Item Información -->
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Dirección</h3>
+                <p>Temuco, Chile</p>
+              </div>
+            </div><!-- Fín Item Información -->
+
+            <!-- Item Información -->
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Llamanos</h3>
+                <p>+56 9 54124372</p>
+              </div>
+            </div><!-- Fín Item Información -->
+
+            <!-- Item Información -->
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Escribenos</h3>
+                <p>fot1983@gmail.com</p>
+              </div>
+            </div><!-- Fín Item Información -->
+
+          </div>
+
+          <!-- Formulario Contacto -->
+          <div class="col-lg-8">
+            <form action="" method="post" class="email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Tu Nombre" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Tu emaill" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Asunto" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Mensaje" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <button type="submit">Enviar Mensaje</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- Fín Formulario Contacto -->
+
+        </div>
+
+      </div><!-- Fín Contenedor Contacto -->
+
+    </section><!-- Fín Sección Contacto -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+    <div class="container">
+      <h3 class="sitename">Portafolio</h3>
+      <p>© 2024 Francisco Ocharan. Todos los derechos reservados.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-skype"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Archivos JS -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

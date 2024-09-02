@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>FORMULARIO</h1>
+
+        <form action="">
+            <label for="nombre">NOMBRE</label><br>
+            <input type="text" name="nombre" id="nombre"><br>
+            <br>
+            <label for="direccion">DIRECCIÓN</label><br>
+            <input type="text" name="direccion" id="direccion"><br>
+            <br>
+            <label for="lista">ESPECIALIDAD MÉDICA</label><br>
+            <input type="text" name="lista" list="especialidad"><br>
+            <datalist id="especialidad">
+            <option value="medicina general">Medicina General</option>
+            <option value="pediatria">Pediatra</option>
+            <option value="oftalmologia">Oftalmologo</option>
+            <option value="broncopulmonar">Broncopulmonar</option>
+            </datalist>
+            <br>
+            <label for="fecha">FECHA</label><br>
+            <input type="date"><br>
+            <br>
+            <label for="hora">HORA</label><br>
+            <input type="time"><br>
+            <br>
+            <label for="correo">CORREO</label><br>
+            <input type="email"><br>
+            <br>
+            <button>ENVIAR</button>
+        </form>        
+    </main>
+</body>
+</html>
